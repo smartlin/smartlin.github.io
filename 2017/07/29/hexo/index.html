@@ -5,18 +5,19 @@
   
 
   
-  <title>Hello World | Hexo</title>
+  <title>Hexo安装过程中遇到的一些问题 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troublesho">
+  <meta name="description" content="部署错误1.使用https仓库部署时：Error: bash: /dev/tty: No such device or addresserror: failed to execute prompt script (exit code 1)fatal: could not read Username for &amp;#">
+<meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/12/04/hello-world/index.html">
+<meta property="og:title" content="Hexo安装过程中遇到的一些问题">
+<meta property="og:url" content="http://yoursite.com/2017/07/29/hexo/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:updated_time" content="2017-12-04T01:46:53.403Z">
+<meta property="og:description" content="部署错误1.使用https仓库部署时：Error: bash: /dev/tty: No such device or addresserror: failed to execute prompt script (exit code 1)fatal: could not read Username for &amp;#39;https://github.com&amp;#39;: Invalid argument">
+<meta property="og:updated_time" content="2017-07-29T14:38:01.521Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="Hexo安装过程中遇到的一些问题">
+<meta name="twitter:description" content="部署错误1.使用https仓库部署时：Error: bash: /dev/tty: No such device or addresserror: failed to execute prompt script (exit code 1)fatal: could not read Username for &amp;#39;https://github.com&amp;#39;: Invalid argument">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -63,12 +64,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hexo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/12/04/hello-world/" class="article-date">
-  <time datetime="2017-12-04T01:46:53.401Z" itemprop="datePublished">2017-12-04</time>
+    <a href="/2017/07/29/hexo/" class="article-date">
+  <time datetime="2017-07-29T10:26:48.000Z" itemprop="datePublished">2017-07-29</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -77,7 +82,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Hexo安装过程中遇到的一些问题
     </h1>
   
 
@@ -85,42 +90,33 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h3 id="部署错误"><a href="#部署错误" class="headerlink" title="部署错误"></a>部署错误</h3><h4 id="1-使用https仓库部署时："><a href="#1-使用https仓库部署时：" class="headerlink" title="1.使用https仓库部署时："></a>1.使用https仓库部署时：</h4><p><code>Error: bash: /dev/tty: No such device or address</code><br><code>error: failed to execute prompt script (exit code 1)</code><br><code>fatal: could not read Username for &#39;https://github.com&#39;: Invalid argument</code></p>
+<h4 id="2-解决办法"><a href="#2-解决办法" class="headerlink" title="2.解决办法"></a>2.解决办法</h4><p>使用带用户名和密码的 HTTPS 链接<br><code>https://&lt;yourusername&gt;:&lt;yourpwd&gt;@github.com/smartlin/smartlin.github.io.git</code></p>
+<h4 id="3-deploy-404错误"><a href="#3-deploy-404错误" class="headerlink" title="3.deploy 404错误"></a>3.deploy 404错误</h4><p>被这个问题坑了一下午，hexo s 本地访问都么问题，deploy就404，后来查了好久是github库master分支下缺少CNAME，手动创建并指定域名，如smartlin.github.io，即可解决。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/12/04/hello-world/" data-id="cjc8v6qf90000o8e3khjwr41s" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2017/07/29/hexo/" data-id="cjc8vagf900003ce3b2s0ae0m" class="article-share-link">Teilen</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2018/01/10/Hbase单机版安装以及java连接Hbase/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2017/12/04/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Neuer</strong>
       <div class="article-nav-title">
         
-          Hexo安装过程中遇到的一些问题
+          Hello World
         
       </div>
     </a>
   
-  
-    <a href="/2017/07/29/hexo/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Älter</strong>
-      <div class="article-nav-title">Hexo安装过程中遇到的一些问题</div>
-    </a>
   
 </nav>
 
